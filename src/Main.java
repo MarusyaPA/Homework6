@@ -20,9 +20,33 @@ public class Main {
 
         System.out.println("Задача № 4");
 
-        for (int с= 10; с>=-10; с=с-1){
-            System.out.println("Итерация цикла " + с);
+        for (int n= 10; n>=-10; n=n-1){
+            System.out.println("Итерация цикла " + n);
         }
+        System.out.println("Задача № 5");
+
+        for (int d= 1904; d<= 2096; d=d+4){
+            System.out.println(d + " год является високосным");
+        }
+        System.out.println("Задача № 6");
+
+        for (int e= 7; e<= 98; e=e+7){
+            System.out.println(e);
+        }
+
+        System.out.println("Задача № 7");
+
+        for (int w= 1; w<= 512; w=w*2){
+            System.out.println(w);
+        }
+
+        System.out.println("Задача № 8-9");
+
+        int salary = 29000;
+        int total = 0;
+        for (int q= 0; q<= 12; q=q+1)
+        {total = total+total/100+salary;
+            System.out.println("Месяц " + q + " сумма накоплений равна " + total + " рублей");}
 
 
 

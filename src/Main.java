@@ -44,15 +44,14 @@ public class Main {
 
         int salary = 29000;
         int total = 0;
-        for (int q= 0; q<= 12; q=q+1)
+        for (int q= 1; q<= 12; q=q+1)
         {total = total+total/100+salary;
             System.out.println("Месяц " + q + " сумма накоплений равна " + total + " рублей");}
 
         System.out.println("Задача № 10");
 
         int z = 2;
-        int t= 1;
-        for (t = 1; t <= 10; t=t+1){
+        for (int t = 1; t <= 10; t=t+1){
             System.out.println(z + " * " + t + " = " + z*t);
         }
     }
